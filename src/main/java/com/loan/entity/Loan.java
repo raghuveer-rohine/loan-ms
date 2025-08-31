@@ -10,7 +10,7 @@ import lombok.Data;
 public class Loan {
 
     @Id
-    private Integer loanId; // Must be generated manually if needed
+    private Integer loanId; // Must be generated manually  if needed
 
     private Integer amount;
 
