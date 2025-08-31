@@ -25,7 +25,7 @@ public class LoanController {
             ipAddress = "Error getting IP: " + e.getMessage();
         }
 
-        String message = "Loan service is up and running on IP: " + ipAddress;
+        String message = "Loan service is up and running on IP: " + ipAddress +" post automated deployment.";
         return ResponseEntity.ok(message);
     }
 
